@@ -1,1 +1,10 @@
 # U2A3.-NOTEBOOK-An-lisis-de-Datos-Aplicables-al-Teorema-de-Na-ve-Bayes
+Este trabajo consistió en un análisis exploratorio de datos (EDA) y la construcción de un modelo predictivo para estimar los costos médicos anuales de una base de datos de clientes de una compañía de seguros médicos. Se utilizó un conjunto de datos con variables como edad, sexo, índice de masa corporal (BMI), número de hijos, si el cliente fuma o no, la región en la que reside y los cargos médicos.
+
+El análisis comenzó con la carga y limpieza de los datos, identificando la ausencia de valores nulos y explorando las características de cada variable. Se llevaron a cabo visualizaciones gráficas para entender la distribución de los datos y las relaciones entre las variables, como la comparación de los cargos médicos según si el cliente fuma o no, el análisis de la distribución del BMI y la exploración de la correlación entre las variables numéricas. Se usaron gráficos como KDE, countplot, gráficas 3D, y mapas de calor para obtener una visión profunda de los patrones en los datos.
+
+Luego, se prepararon las variables para su uso en el modelo predictivo. Se aplicaron transformaciones, como la conversión de variables categóricas a numéricas, para mejorar el rendimiento del modelo. A continuación, se emplearon técnicas de aprendizaje automático, como la regresión y la validación cruzada, para crear un modelo que predice los cargos médicos basándose en las características de los clientes.
+
+Finalmente, el análisis reveló algunas relaciones claras entre las variables, como la mayor probabilidad de mayores cargos médicos para los fumadores y los impactos del BMI en los costos. Aunque se obtuvieron resultados útiles, también se identificaron áreas para mejorar el modelo, como considerar interacciones más complejas entre las variables o integrar más factores socioeconómicos.
+
+Este trabajo proporciona una base sólida para comprender los factores que influyen en los costos médicos y cómo los datos pueden utilizarse para realizar predicciones más precisas en el futuro.
